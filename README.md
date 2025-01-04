@@ -5,19 +5,23 @@ This configuration provides a basic, user-friendly setup for `Neovim` with custo
 - **Ayu Theme**: Uses the Ayu theme - https://github.com/ayu-theme/ayu-vim
 
 ```markdown
-![Default ayu-dark preview](Image_URL)
+![Default ayu-dark preview](https://github.com/rakshith077-bn/neovim-setup/blob/main/Photos/default.png)
 ```
 
 - **Lualine:** Employs a `slanted-gaps` theme with customized colors - https://github.com/nvim-lualine/lualine.nvim
 
 ```markdown
-![Status Line Preview](Image_URL)
+![Status Line Preview](https://github.com/rakshith077-bn/neovim-setup/blob/main/Photos/visual.png)
+```
+
+```markdown
+![Status Line Preview2](https://github.com/rakshith077-bn/neovim-setup/blob/main/Photos/insert.png)
 ```
 
 - **Nvim-Tree:** Integrates Nvim-Tree for navigation - https://github.com/nvim-tree/nvim-tree.lua.
 
 ```markdown
-![Nvim-Tree Preview](Image_URL)
+![Nvim-Tree Preview](https://github.com/rakshith077-bn/neovim-setup/blob/main/Photos/NvimTree.png)
 ```
 
 - **Note**: The font used is https://www.jetbrains.com/lp/mono/. 
