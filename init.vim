@@ -1,10 +1,11 @@
-" vim-plug plugins
+" Plugins
 call plug#begin()
 Plug 'ayu-theme/ayu-vim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'nvim-tree/nvim-web-devicons'
+Plig 'lukas-reineke/indent-blankline.nvim'
 call plug#end()
 
 set termguicolors     " enable true colors support
@@ -14,7 +15,29 @@ let ayucolor="dark"   " for dark version of theme
 
 colorscheme ayu
 
+" Line Numbers
+set number
+
+" Syntaxt Highlighting and File Type Detection
+syntax on
+filetype plugin indent on
+
+" Indent and Tab Space
+set autoindent
+set smartindent
+set tabstop=6
+set shiftwidth=6
+
 lua << END
+require("nvim-autopairs").setup {}
+
+-- indent-line setup
+local highlight = {
+	"CursorColumn",
+	"Whitespace",
+}
+
+require("ibl").setup()
 
 -- nvim-tree Controls
 require("nvim-tree").setup({
